@@ -1,0 +1,191 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invitacion Alfonso y Martha</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/layout.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+    />
+  </head>
+
+  <body class="center">
+    <div class="content">
+      <!-- Header-->
+      <section class="header">
+        <img src="assets/img/portada.jpeg" alt="Pareja" class="hero-img" />
+        <div class="overlay">
+          <h3 class="titulo">Nuestra Boda</h3>
+          <h1 class="fecha">17/01/2026</h1>
+        </div>
+
+        <div class="musica">
+          <button class="play-button" id="playPauseBtn">▶</button>
+
+          <audio id="audioPlayer" src="./assets/CANCION.MP3"></audio>
+        </div>
+
+        <div class="container-info">
+          <h2 class="nombres">Alfonso & Martha</h2>
+
+          <p class="frase">
+            “Mejores son dos que uno; porque tienen mejor paga de su trabajo.
+            Porque si cayeren, el uno levantará a su compañero; pero ¡ay del
+            solo! que cuando cayere, no habrá segundo que lo levante.”
+            <b>(Eclesiastés 4:9-10)</b>
+          </p>
+
+          <div class="contador">
+            <section>
+              <table align="center" width="90%">
+                <tr>
+                  <td><span id="days"></span></td>
+                  <td><span id="hours"></span></td>
+                  <td><span id="minutes"></span></td>
+                  <td><span id="seconds"></span></td>
+                </tr>
+                <tr>
+                  <th>Días</th>
+                  <th>Hrs</th>
+                  <th>Min</th>
+                  <th>Seg</th>
+                </tr>
+              </table>
+            </section>
+          </div>
+
+          <div class="separador">
+            <img src="assets/img/separador1.png" alt="" />
+          </div>
+
+          <div class="titulo-padres">Con la bendicion de nuestros Padres</div>
+
+          <div class="info-secundary">
+            <div class="info-content">
+              <h1>Padres del Novio</h1>
+              <ul>
+                <li>Faustino Olaya</li>
+                <li>Teofila Mora</li>
+              </ul>
+            </div>
+            <div class="info-content">
+              <h1>Padres de la Novia</h1>
+              <ul>
+                <li>Nicacio Ramírez</li>
+                <li>Cira Soto</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="titulo-padres">Y nuestros Padrinos</div>
+          <div class="padrinos">
+            <ul>
+              <li>Lourdes Areli Zamora Deveaux</li>
+              <li>Fabio Rodrigo Sotomayor Gutierrez</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="divisor-imagen">
+        <img src="assets/img/portada1.jpeg" alt="" />
+      </div>
+
+      <!-- DRESS CODE -->
+      <section class="dresscode">
+        <h3>DRESS CODE</h3>
+        <h4>El codigo de vestimenta es de Etiqueta</h4>
+        <p>
+          Porfavor, evita usar vestimenta color blanco o tonos pastel, asi como
+          colores vino o rojo respetemos este dia tan especial para los novios.
+        </p>
+
+        <!-- 
+        <div class="palette">
+          <span class="color" style="background: #e6d5cf"></span>
+          <span class="color" style="background: #b0a59c"></span>
+          <span class="color" style="background: #2e2e2e"></span>
+          <span class="color" style="background: #003049"></span>
+        </div>
+        -->
+      </section>
+
+      <!-- DETALLES DE LA BODA -->
+      <section class="details">
+        <div class="event-info">
+          <h3>Ceremonia Religiosa</h3>
+          <h4>Capilla Quinta Aparicion</h4>
+          <p>
+            <b>2:00 PM, procura llegar 30 minutos antes <br /></b>
+            C. Conde de Saboya 8, Cerro del Marquez, 56614 Valle de Chalco
+            Solidaridad, Méx.
+          </p>
+          <button class="btnUbicacion">
+            <a href="https://maps.app.goo.gl/tg6HFpFBZxuBXqkTA"
+              >Ver Ubicación</a
+            >
+          </button>
+        </div>
+      </section>
+
+      <section class="details">
+        <div class="event-info">
+          <h3>Recepción / Fiesta</h3>
+          <h4>Calle Conde de Garay</h4>
+          <p>
+            <b>Terminando la misa <br /></b>
+            MZ 27 LT 30 colonia cerro del Marqués 56614 valle de Chalco
+            solidaridad.mex.
+          </p>
+          <button class="btnUbicacion"><a href="#">Ver Ubicación</a></button>
+        </div>
+      </section>
+
+      <div class="divisor-imagen1">
+        <img src="assets/img/portada2.jpeg" alt="" />
+      </div>
+
+      <section class="container-info-2">
+        <div class="mesa-regalos">
+          <h3>Mesa de Regalos</h3>
+          <p>
+            “Su presencia es nuestro mayor regalo. Si desean obsequiarnos algo,
+            una aportación en efectivo será recibida con todo nuestro cariño.”
+          </p>
+        </div>
+
+        <div class="separador">
+          <img src="assets/img/separador1.png" alt="" />
+        </div>
+
+        <!-- Confirmacion-->
+        <section class="confirmar">
+          <h2 class="confirmar-titulo">
+            Los mejores momentos, merecen ser compartidos
+          </h2>
+          <p>!Gracias por acompañarnos en este día tan especial!</p>
+          <button class="btnConfirmar">
+            <a href="https://wa.link/5b3frd">Confirmar Asistencia</a>
+          </button>
+        </section>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        Diseñado por
+        <a
+          href="https://www.facebook.com/profile.php?id=61568997140138"
+          target="_blank"
+          >Mirai</a
+        >
+        @2026
+      </footer>
+    </div>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
