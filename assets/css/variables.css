@@ -4,36 +4,36 @@
 :root {
   /* Gradiente de fondo */
   --bg-gradient: linear-gradient(
-    131deg,
-    #76593a -3.63%,
-    #c8a76e 55.5%,
-    #76593a 107.94%
+    90deg,
+    #A67F68 -3.63%,
+    #D9845255.5%,
+    #F2C094 107.94%
   );
 
   /* Color de fondo */
-  --bg-content: #ffffff;
+  --bg-content: #F2E2CE;
 
   /* Fondo del Contenedor */
-  --bg-container: #0f1a0f;
+  --bg-container: #BF6E50;
 
   /* fondo del contador  */
-  --bg-contador: #ffffff;
+  --bg-contador: #BF6E50;
 
   /* Colores de texto */
   --text-primary: #000000;
   --text-secondary: #ffffff;
-  --text-tertiary: #384236;
+  --text-tertiary: #504F59;
 
   /* fondo de cards */
-  --bg-card-1: #2e3d29;
-  --bg-card-2: #687e64;
+  --bg-card-1: #504F59;
+  --bg-card-2: #504F59;
 
   /* fondo de botones */
   --bg-botones: linear-gradient(
     131deg,
-    #2e3d29 -3.63%,
-    #687e64 55.5%,
-    #2e3d29 107.94%
+    #D99B77 -3.63%,
+    #BF6E50 55.5%,
+    #D99B77 107.94%
   );
 
   --bg-footer: #242424;

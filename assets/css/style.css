@@ -25,10 +25,11 @@
 }
 
 .titulo {
+  margin-top: 250px;
   font-family: "Playfair Display", serif;
   letter-spacing: 3px;
-  font-size: clamp(40px, 4vw, 50px);
-  color: var(--text-primary);
+  font-size: clamp(35px, 4vw, 50px);
+  color: #ffffff;
 }
 
 .fecha {
@@ -168,7 +169,7 @@
 
 .divisor-imagen {
   z-index: -99999;
-  margin-top: -100px;
+  margin-top: -20px;
 }
 
 .divisor-imagen img {
@@ -343,7 +344,7 @@
         FOOTER
 --------------------------*/
 footer {
-  background-color: var(--bg-container);
+  background-color: var(--bg-footer);
   color: white;
   padding: 1rem;
   text-align: center;
